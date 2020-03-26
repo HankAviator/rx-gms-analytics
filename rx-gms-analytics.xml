@@ -12,3 +12,5 @@
 <prescription type="service" class="com.google.android.gms.measurement.PackagesMeasurementService" sender="any" />
 <prescription type="service" class="com.google.android.gms.measurement.PackagesMeasurementTaskService" sender="any" />
 <prescription type="service" class="com.google.android.gms.measurement.service.MeasurementBrokerService" sender="any" />
+
+</prescriptions>
