@@ -1,0 +1,14 @@
+<prescriptions xmlns="http://greenify.github.io/schemas/prescription/v3">
+
+<!-- GMS Analytics Service -->
+<prescription type="service" class="com.google.android.gms.analytics.AnalyticsService" sender="any" />
+<prescription type="service" class="com.google.android.gms.analytics.AnalyticsTaskService" sender="any" />
+<prescription type="service" class="com.google.android.gms.analytics.internal.PlayLogReportingService" sender="any" />
+<prescription type="service" class="com.google.android.gms.analytics.service.AnalyticsService" sender="any" />
+
+<!-- GMS AppMeasurement (deprecated, superseded by Firebase analytics) -->
+<prescription type="service" class="com.google.android.gms.measurement.AppMeasurementService" sender="any" />
+<prescription type="service" class="com.google.android.gms.measurement.AppMeasurementJobService" sender="any" />
+<prescription type="service" class="com.google.android.gms.measurement.PackagesMeasurementService" sender="any" />
+<prescription type="service" class="com.google.android.gms.measurement.PackagesMeasurementTaskService" sender="any" />
+<prescription type="service" class="com.google.android.gms.measurement.service.MeasurementBrokerService" sender="any" />
