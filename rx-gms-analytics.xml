@@ -13,4 +13,6 @@
 <prescription type="service" class="com.google.android.gms.measurement.PackagesMeasurementTaskService" sender="any" />
 <prescription type="service" class="com.google.android.gms.measurement.service.MeasurementBrokerService" sender="any" />
 
+<!-- Debug  -->
+<prescription type="service" class="com.google.android.gms.clearcut.debug.ClearcutDebugDumpService" sender="any" />
 </prescriptions>
